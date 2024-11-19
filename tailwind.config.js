@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: [
+    "./index.html", // إذا كان index.html في الجذر
+    "./public/**/*.html", // إذا كنت تستخدم ملفات HTML داخل public أيضًا
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       // I allocated some values ​​that do not exist in Tailwind for Response and Animation
