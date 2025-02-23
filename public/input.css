@@ -121,3 +121,10 @@ input:focus {
   color: #4caf4f;
   transition: 0.35s;
 }
+.p-4 {
+  margin-right: 20px;
+}
+.laptop {
+  width: 400px;
+  margin-bottom: 20px;
+}
